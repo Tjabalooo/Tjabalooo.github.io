@@ -35,7 +35,7 @@ html {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 910px) {
     .body {
         width: 80%;
     }
