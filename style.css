@@ -36,6 +36,10 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+    .body {
+        width: 80%;
+    }
+
     .body > img {
         width: 90%;
     }
