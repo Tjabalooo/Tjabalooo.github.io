@@ -1,0 +1,32 @@
+html {
+    color: rgb(120,120,120);
+}
+
+.body {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.body > h1 {
+    text-align: center;
+}
+
+.body > img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.body > .text {
+    text-align: center;
+    margin: 40px 5%;
+}
+
+.body > ul {
+    margin: 0 0 0 10%;
+}
+
+.body > ul > li {
+    line-height: 1.5em;
+}
