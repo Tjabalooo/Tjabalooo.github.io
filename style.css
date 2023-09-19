@@ -2,45 +2,42 @@ html {
     color: rgb(120,120,120);
 }
 
-.body {
-    width: 50%;
+body {
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
 
-.body > h1 {
+body h1 {
     text-align: center;
 }
 
-.body > img {
-    display: block;
-    margin: 0 auto;
-    width: 60%;
+.wishlist {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
-.body > .text {
-    text-align: center;
-    margin: 40px 5%;
+.wish {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: black solid 2px;
+    border-radius: 5px;
 }
 
-.body > ul {
-    margin: 0 0 0 10%;
+.wish-image {
+    height: 100%;
 }
 
-.body > ul > li {
-    line-height: 30px;
-}
-
-.body > .text, .body li {
-    font-size: 20px;
-}
-
-@media only screen and (max-width: 1000px) {
-    .body {
-        width: 80%;
-    }
-
-    .body > img {
-        width: 90%;
-    }
+.wish-description {
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
 }
