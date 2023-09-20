@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Pontus önskelista</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="bigimage.css">
+	</head>
+
+	<body>
+		<div class="body">
+			<a href="./index.html">
+                <div class="back-button">
+                    <h2>BACK</h2>
+                </div>
+            </a>
+
+            <img id="big-image">
+		</div>
+	</body>
+
+    <script>
+        function setImagePath() {
+            var urlParams = window.location.search.substring(1).split("&");
+            var imagePath = urlParams[0].split("=")[1];
+            if (imagePath === undefined || imagePath === "") {
+                imagePath = "./images/no image found.jpg";
+            }
+            var imgElement = document.getElementById("big-image");
+            console.log("doing stuff!!");
+            console.log(imagePath);
+            imgElement.setAttribute("src", imagePath);
+        }
+
+        setImagePath();
+    </script>
+</html>
